@@ -2,7 +2,7 @@
 include:
 
   - board: nice_nano//zmk
-    shield: totem_central_dongle dongle_display
+    shield: totem_dongle dongle_display
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: totem_dongle
