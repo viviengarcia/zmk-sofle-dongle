@@ -1,19 +1,26 @@
-if SHIELD_EYELASH_SOFLE_CENTRAL_DONGLE
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_TOTEM_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "E_Solfe-Dongle"
+    default "TOTEM"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_USB
+    default y
+
 endif
 
-
-if SHIELD_EYELASH_SOFLE_CENTRAL_DONGLE || SHIELD_EYELASH_SOFLE_PERIPHERAL_LEFT || SHIELD_EYELASH_SOFLE_PERIPHERAL_RIGHT
+if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT || SHIELD_TOTEM_DONGLE
 
 config ZMK_SPLIT
     default y
 
+config ZMK_BLE
+    default y
 
 if ZMK_DISPLAY
 
@@ -45,15 +52,5 @@ choice LV_COLOR_DEPTH
 endchoice
 
 endif
-
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif # ZMK_BACKLIGHT
 
 endif
