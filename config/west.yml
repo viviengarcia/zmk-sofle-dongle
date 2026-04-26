@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # - name: gpeye
     #   url-base: https://github.com/GPeye
-    - name: tokyo2006
-      url-base: https://github.com/tokyo2006
+    # - name: tokyo2006
+    #   url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
@@ -16,9 +16,9 @@ manifest:
     # - name: mario-peripheral-animation
     #   remote: gpeye
     #   revision: main
-    - name: prospector-zmk-module # <--- and these
-      remote: tokyo2006 # <---
-      revision: micro_spi2
+    # - name: prospector-zmk-module # <--- and these
+    #   remote: tokyo2006 # <---
+    #   revision: micro_spi2
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
