@@ -14,5 +14,5 @@ include:
   - board: xiao_ble//zmk
     shield: totem_right
     artifact-name: totem_right
-  # - board: xiao_ble//zmk
-  #   shield: settings_reset
+  - board: xiao_ble//zmk
+    shield: settings_reset
