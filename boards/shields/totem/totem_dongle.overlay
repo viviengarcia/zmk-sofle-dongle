@@ -16,7 +16,7 @@
     chosen {
         zmk,physical-layout = &physical_layout0;
         zmk,kscan = &mock_kscan;
-        zmk,kscan = &kscan0;
+        // zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zephyr,display = &oled;
     };
@@ -26,11 +26,6 @@
         columns = <0>;
         rows = <0>;
         events = <0>;
-    };
-
-    kscan0: kscan {
-        wakeup-source;
-        diode-direction = "col2row";
     };
 
     ext-power {
