@@ -2,11 +2,11 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
-        zmk,kscan = &kscan_0;
+        zmk,kscan = &kscan2;
+        // zmk,kscan = &kscan_0;
     };
 
-    kscan0: kscan {
+    kscan2: kscan {
         wakeup-source;
         diode-direction = "col2row";
     };
