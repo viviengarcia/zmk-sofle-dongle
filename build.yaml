@@ -9,7 +9,7 @@ include:
 
   - board: nice_nano//zmk
     shield: settings_reset
-    artifact-name: dongle_reset
+    artifact-name: nice_nano_reset
 
   - board: xiao_ble//zmk
     shield: totem_left
@@ -21,4 +21,4 @@ include:
 
   - board: xiao_ble//zmk
     shield: settings_reset
-    artifact-name: totem_reset
+    artifact-name: xiao_ble_reset
