@@ -1,0 +1,4 @@
+*.dtsi linguist-language=C++
+*.keymap linguist-language=C++
+*.defconfig linguist-language=C++
+*.shield linguist-language=C++
