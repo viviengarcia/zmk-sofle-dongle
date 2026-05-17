@@ -20,6 +20,7 @@
 #include "includes/combos.dtsi"
 
 #define DFT 0
+#define SEL 1
 
 &mt {
     quick-tap-ms = <100>;
