@@ -2,7 +2,6 @@
 #define XXX &none
 
 #define CM COMMA
-#define DOT PERIOD
 #define SMC SEMI
 #define COL COLON
 #define QST QUESTION
