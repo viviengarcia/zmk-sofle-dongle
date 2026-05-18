@@ -14,8 +14,8 @@
 
         combo_circ {
             timeout-ms = <50>;
-            key-positions = <26 28>;
-            bindings = <&kp CAR>;
+            key-positions = <26 27>;
+            bindings = <&kp CRT>;
             layers = <0>;
         };
 
